@@ -1,0 +1,30 @@
+
+@model List<NombreSolucion.Models.PedidoVM>
+
+@{
+    ViewData["Title"] = "PEDIDOS";
+}
+
+<table class="tablaCadete table ">
+    <thead>
+        <tr>
+            <th scope="col">Nro</th>
+            <th scope="col"> Cliente </th>
+            <th scope="col">Observacion</th>        
+            <th scope="col">Estado</th>        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nro</td>
+                <td>@item.cliente</td>
+                <td>@item.Obs</td>
+                <td>@item.Estado</td>
+                @* <td><button type="button" class="btn btn-danger ">@Html.ActionLink("Eliminar","eliminarCadete","Cadete",new {id=item.ID})</button></td>
+                <td><button type="button" class="btn btn-danger ">@Html.ActionLink("Modidicar","modificarCadete","Cadete",new {id=item.ID})</button></td> *@
+            </tr> 
+        }
+    </tbody>
+</table>
+<button  type="button" class="btn btn-primary agreg">@Html.ActionLink("Agregar nuevo","altaPedido","Pedido" )</button>

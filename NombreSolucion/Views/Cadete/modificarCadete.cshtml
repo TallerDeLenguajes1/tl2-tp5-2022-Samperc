@@ -1,0 +1,24 @@
+@model NombreSolucion.Models.CadeteVM
+
+@{
+    ViewData["Title"] = "MODIFICAR CADETE";
+}
+<section class="row">
+    <article class="col">
+<form class="form" asp-controller="Cadete" asp-action="agregarCad">
+
+    <label class="form-label" for="Nombre"> Nombre cadete: </label>
+    <input class="form-control" type="text" name="Nombre" value="@Model.nombre">
+    <br>
+
+    <label class="form-label" for="Telefono"> Telefono: </label>
+    <input class="form-control" type="text" name="Telefono" value="@Model.Telefono">
+    <br>
+
+    <button type="submit">Register</button>
+
+</form>
+    </article>
+    <article class="col">
+    </article>
+</section>

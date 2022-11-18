@@ -1,0 +1,34 @@
+@model NombreSolucion.Models.PedidoVM
+
+@{
+    ViewData["Title"] = "AltaPedido";
+}
+<section class="row">
+    <article class="col">
+
+        <form class="form" asp-controller="Pedido" asp-action="agregarPedido" method="post">
+            <label asp-for="@Model.Nro" class="form-label" for="Nro"> Numero pedido: </label>
+            <input asp-for="@Model.Nro" class="form-control" type="text" name="Nro">
+            <br>
+
+            <label asp-for="@Model.Obs" class="form-label" for="Obs"> Observaciones: </label>
+            <textarea asp-for="@Model.Obs" class="form-control" name="Obs" cols="10" rows="10">
+                escribe las observaciones sobre el pedido
+            </textarea>
+            <br>
+
+            <label asp-for="@Model.cliente" class="form-label" for="cliente">Nombre Cliente: </label>
+            <input asp-for="@Model.cliente" class="form-control" name="cliente"type="textarea">
+            <br>
+            <select name="select">
+                <option class="form-control" asp-for="@Model.Estado" value="true">entregado</option>
+                <option class="form-control" value="false" asp-for="@Model.Estado" selected>no entregado</option>
+                
+            </select>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </article>
+    <article class="col">
+    </article>
+</section>

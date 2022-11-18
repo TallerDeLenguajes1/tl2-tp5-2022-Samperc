@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.tablaCadete{
+ 
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem;
+}
+
+.form{
+  
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+.imgPedi{
+  width: 300px;
+}

@@ -1,0 +1,23 @@
+@model NombreSolucion.Models.CadeteVM
+
+@{
+    ViewData["Title"] = "AltaCadete";
+}
+<section class="row">
+    <article class="col">
+
+        <form class="form" asp-controller="Cadete" asp-action="agregarCad" method="post">
+            <label asp-for="@Model.nombre" class="form-label" for="Nombre"> Nombre cadete: </label>
+            <input asp-for="@Model.nombre" class="form-control" type="text" name="Nombre" p>
+            <br>
+
+            <label asp-for="@Model.Telefono" class="form-label" for="Telefono"> Telefono: </label>
+            <input asp-for="@Model.Telefono" class="form-control" type="text" name="Telefono">
+            <br>
+
+            <button type="submit">Register</button>
+        </form>
+    </article>
+    <article class="col">
+    </article>
+</section>

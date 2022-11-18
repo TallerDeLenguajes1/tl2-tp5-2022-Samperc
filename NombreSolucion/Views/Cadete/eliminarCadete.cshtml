@@ -1,0 +1,29 @@
+@model NombreSolucion.Models.CadeteVM
+@{
+    ViewData["Title"] = "eliminarCadete";
+}
+
+
+<h2>Seguro que quieres eliminar a :</h2>
+<br>
+<br>
+
+<table class="tablaCadete table ">
+    <thead>
+    
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col"> Telefono </th>
+                   </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>@Model.nombre</td>
+                <td>@Model.Telefono</td>
+                
+            </tr>
+        
+    </tbody>
+</table>
+<button type="button" class="btn btn-danger ">@Html.ActionLink("Confirmar Eliminacion","eliminarCadeteConfirm","Cadete",new {id=@Model.ID})</button>
