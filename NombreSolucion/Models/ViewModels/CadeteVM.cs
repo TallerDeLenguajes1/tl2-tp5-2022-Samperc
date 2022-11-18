@@ -15,6 +15,7 @@ namespace NombreSolucion.Models
          [StringLength(20)]
         public string Telefono;
 
+
     }
 
 

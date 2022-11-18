@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\tl2\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj": {}
+    "C:\\RepoGit\\Taller2\\santiago\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\tl2\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj": {
+    "C:\\RepoGit\\Taller2\\santiago\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\tl2\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj",
+        "projectUniqueName": "C:\\RepoGit\\Taller2\\santiago\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj",
         "projectName": "NombreSolucion",
-        "projectPath": "C:\\Users\\LENOVO\\tl2\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\tl2\\tl2-tp5-2022-Samperc\\NombreSolucion\\obj\\",
+        "projectPath": "C:\\RepoGit\\Taller2\\santiago\\tl2-tp5-2022-Samperc\\NombreSolucion\\NombreSolucion.csproj",
+        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+        "outputPath": "C:\\RepoGit\\Taller2\\santiago\\tl2-tp5-2022-Samperc\\NombreSolucion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
